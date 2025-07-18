@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FVNK Painting & Restoration | The Royal Standard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container">
+            <a href="#" class="logo">FVNK Painting</a>
+            <nav>
+                <ul>
+                    <li><a href="#process">The Process</a></li>
+                    <li><a href="#repairs">Repairs</a></li>
+                    <li><a href="#materials">Materials & Costs</a></li>
+                    <li><a href="#quote">Sample Quote</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h1>The Art of Restoration. The Science of Protection.</h1>
+            <p>Transforming properties with unparalleled craftsmanship and a commitment to enduring quality. Discover the royal standard in painting and repairs.</p>
+        </div>
+    </section>
+
+    <main class="container">
+
+        <!-- THE PROCESS SECTION -->
+        <section id="process" class="content-section">
+            <div class="section-header">
+                <h2>The Royal Process: A Symphony in Four Acts</h2>
+                <p>A masterpiece finish is not an accident. It is the result of a meticulous, time-honored process that we have perfected.</p>
+            </div>
+            <div class="process-grid">
+                <div class="process-step">
+                    <div class="step-number">I</div>
+                    <h3>Site & Surface Preparation</h3>
+                    <p>The foundation of excellence. We protect your assets, clean every surface, and meticulously scrape away the old to make way for the new. This is where durability begins.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">II</div>
+                    <h3>Repair & Restoration</h3>
+                    <p>We heal the building's wounds. Every crack is treated, every imperfection is smoothed, and every surface is made whole again, ensuring a flawless canvas.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">III</div>
+                    <h3>Priming & Sealing</h3>
+                    <p>The protective shield. A high-adhesion primer is applied to seal the surface, guarantee a vibrant final color, and create a barrier against time and weather.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">IV</div>
+                    <h3>The Finishing Coats</h3>
+                    <p>The final flourish. Two coats of premium paint are applied with precision, delivering a rich, uniform, and breathtaking finish that defines luxury and longevity.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- REPAIRS SECTION -->
+        <section id="repairs" class="content-section">
+            <div class="section-header">
+                <h2>Before the Brush Touches the Wall: The Science of Repair</h2>
+                <p>True beauty is more than skin deep. We address the core issues of your building to ensure our work doesn't just look good, but lasts a lifetime.</p>
+            </div>
+
+            <div class="repair-tabs">
+                <button class="tab-link active" onclick="openRepair(event, 'Cracks' )">Crack Repair</button>
+                <button class="tab-link" onclick="openRepair(event, 'Seepage')">Water Seepage</button>
+            </div>
+
+            <div id="Cracks" class="tab-content" style="display: block;">
+                <h3>A Guide to Flawless Crack Repair</h3>
+                <p>From hairline fractures to structural faults, we use specialized materials to restore integrity.</p>
+                <table class="styled-table">
+                    <thead>
+                        <tr>
+                            <th>Crack Type</th>
+                            <th>Recommended Material</th>
+                            <th>Procedure Highlights</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Hairline Cracks</strong><br>(< 2mm)</td>
+                            <td>Acrylic Wall Putty / Filler</td>
+                            <td>Clean, fill, and sand for a smooth cosmetic finish.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Medium Plaster Cracks</strong><br>(2-5mm)</td>
+                            <td>Polymer-Modified Mortar</td>
+                            <td>Widen to a 'V' groove, clean, prime, and fill for a flexible, strong bond.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Deep Structural Cracks</strong><br>(> 5mm)</td>
+                            <td>Epoxy Grout / Injection</td>
+                            <td>Engineer assessment followed by high-pressure epoxy injection to "weld" the structure.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="Seepage" class="tab-content">
+                <h3>Conquering Water Seepage: The Permanent Solution</h3>
+                <p>Painting a damp wall is a recipe for disaster. We solve the problem at its source.</p>
+                 <ol class="step-list">
+                    <li><strong>Find the Source:</strong> We conduct a thorough investigation of the terrace, exterior walls, and plumbing to find the root cause of the leak.</li>
+                    <li><strong>Fix the Source:</strong> We perform crucial repairs, from applying new waterproofing membranes on the terrace to fixing exterior cracks.</li>
+                    <li><strong>Wall Restoration:</strong> We remove damaged plaster, allow the wall to dry completely, and apply a cementitious waterproof barrier.</li>
+                    <li><strong>Replaster & Repaint:</strong> Only after the wall is fully protected and dry do we replaster and begin our signature painting process.</li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- MATERIALS & COSTS SECTION -->
+        <section id="materials" class="content-section">
+            <div class="section-header">
+                <h2>Anatomy of a Quotation: Materials & Costs</h2>
+                <p>Transparency is a cornerstone of trust. Here is a detailed breakdown of the materials required for a comprehensive project, based on our case study.</p>
+            </div>
+            
+            <h3>Paints & Coatings</h3>
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th>Material</th>
+                        <th>Total Liters</th>
+                        <th>Est. Rate (per L)</th>
+                        <th>Est. Total Cost (INR)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Primer (Interior & Exterior)</td><td>660 L</td><td>₹ 150</td><td>₹ 99,000</td></tr>
+                    <tr><td>Interior Paint (Emulsion)</td><td>600 L</td><td>₹ 250</td><td>₹ 1,50,000</td></tr>
+                    <tr><td>Exterior Paint (Weatherproof)</td><td>700 L</td><td>₹ 300</td><td>₹ 2,10,000</td></tr>
+                    <tr><td>Oil Paint (Enamel)</td><td>60 L</td><td>₹ 350</td><td>₹ 21,000</td></tr>
+                </tbody>
+            </table>
+
+            <h3>Other Essential Materials</h3>
+            <table class="styled-table">
+                 <thead>
+                    <tr>
+                        <th>Material</th>
+                        <th>Quantity</th>
+                        <th>Est. Total Cost (INR)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Wall Putty & P.O.P</td><td>260 kg</td><td>₹ 5,900</td></tr>
+                    <tr><td>Tools (Brushes, Rollers, etc.)</td><td>~100 Pieces</td><td>₹ 9,600</td></tr>
+                    <tr><td>Consumables (Sandpaper, Tape)</td><td>Lumpsum</td><td>₹ 8,690</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- SAMPLE QUOTE SECTION -->
+        <section id="quote" class="content-section">
+            <div class="section-header">
+                <h2>The Proposal: A Promise of Quality</h2>
+                <p>A professional quotation is more than a price list; it's a detailed plan and a commitment to excellence. Below is a summary of a contract-winning proposal.</p>
+            </div>
+            <div class="quote-summary">
+                <h3>Project Scope: Three Buildings</h3>
+                <p><strong>Total Area:</strong> 69,180 sq. ft. (691.80 Brass)</p>
+                <p><strong>Work Included:</strong> Complete Interior, Exterior, Oil Painting, and Polishing, including all preparation and repairs as detailed above.</p>
+                <hr>
+                <h3>Financial Summary</h3>
+                <div class="cost-highlight">
+                    <p>Total Material Cost: <span>~ ₹ 5,41,550</span></p>
+                    <p>Total Labor Cost: <span>~ ₹ 6,22,620</span></p>
+                    <div class="grand-total">
+                        <p>Grand Total Project Estimate:</p>
+                        <span>₹ 11,64,170</span>
+                    </div>
+                </div>
+                <p class="disclaimer">This represents a comprehensive, all-inclusive estimate for a high-quality, long-lasting restoration project.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 FVNK Painting & Restoration. All Rights Reserved.</p>
+            <p>A Royal Standard in Property Care | <a href="https://github.com/willymsfs/FVNK-Painting" target="_blank">View on GitHub</a></p>
+        </div>
+    </footer>
+
+    <script>
+        function openRepair(evt, repairName ) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tab-content");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tab-link");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(repairName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+
+</body>
+</html>
